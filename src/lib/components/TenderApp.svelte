@@ -12,7 +12,7 @@
     ];
 </script>
 
-<div>
+<div class="mt-36">
     {#each tenderDetails as tender}
         <!-- Render TenderCard component for each tender -->
         <TenderCard {tender} />

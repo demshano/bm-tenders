@@ -19,7 +19,7 @@
     });
 </script>
 
-<div class="fixed top-32 right-0 p-4">
-    <h1 class="text-2xl">The current time is {time.toLocaleTimeString()}</h1>
-    <h2 class="text-lg">Today's date is {time.toLocaleDateString()}</h2>
+<div class="flex flex-col mr-8">
+    <span class="text-2xl text-end">{time.toLocaleTimeString()}</span>
+    <span class="text-lg  text-end"> {time.toLocaleDateString()}</span>
 </div>

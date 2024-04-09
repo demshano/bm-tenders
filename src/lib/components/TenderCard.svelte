@@ -6,15 +6,17 @@
     const { image, category, publishedDate, closeDate, link } = tender;
 </script>
 
-<div class=" mt-8 flex-row justify-center items-center gap-8 md:flex">
-    <div class="shadow-xl">
-        <img class="w-[600px]" src={image} alt="tender-ss" />
+<div class=" mt-8 flex-row justify-center items-center gap-8 md:flex bg-sky-200">
+
+    <div class="shadow-xl flex justify-center ">
+        <img class="w-[600px] rounded-md" src={image} alt="tender-ss" />
     </div>
 
-    <div class="shadow-xl p-4">
-        <div class="flex gap-4">
+    <div class="shadow-md p-4 m-4 bg-white rounded-md flex flex-col justify-center">
+
+        <div class="flex gap-4 ">
             <p class="font-bold">Category:</p>
-            <p>{category}</p>
+            <p class="">{category}</p>
         </div>
 
         <div class="flex gap-4">
@@ -33,5 +35,7 @@
                 >See details of the tender</a
             >
         </div>
+
     </div>
+    
 </div>

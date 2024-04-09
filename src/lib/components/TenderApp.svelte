@@ -2,6 +2,7 @@
     import TenderCard from "./TenderCard.svelte";
     import Pagination from './Pagination.svelte';
     import ss1 from "../../assets/ss1.png";
+    import ss2 from "../../assets/ss2.png";
     const tenderDetails = [
         {
             image: ss1,
@@ -11,7 +12,7 @@
             link: "https://www.tenders.nsw.gov.au/?dept=health&event=public.rft.show&RFTUUID=25695F21-0A8E-ABB0-0D24439CBE13D313",
         },
         {
-            image: ss1,
+            image: ss2,
             category: "Contingent workforce",
             publishedDate: "2-Apr-2024",
             closeDate: "6-May-2024 2:00pm",
